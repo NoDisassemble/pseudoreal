@@ -11,6 +11,7 @@ let seek_slider = document.querySelector('.seek_slider');
 let volume_slider = document.querySelector('.volume_slider');
 let curr_time = document.querySelector('.current-time');
 let total_duration = document.querySelector('.total-duration');
+let wave = document.getElementById('wave');
 let randomIcon = document.querySelector('.fa-random');
 let curr_track = document.createElement('audio');
 
@@ -45,9 +46,28 @@ function loadTrack(track_index) {
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
-
+    random_bg_color();
 }
 
+function random_bg_color() {
+    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
+    let a;
+
+    function populate(a) {
+        for (let i = 0; i < 6; i++) {
+            let x = Math.round(Math.random() * 14);
+            let y = hex[x];
+            a += y;
+        }
+        return a;
+    }
+    let Color1 = populate('#');
+    let Color2 = populate('#');
+    var angle = 'to right';
+
+    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
+    document.body.style.background = gradient;
+}
 function reset() {
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
@@ -75,13 +95,11 @@ function playpauseTrack() {
 function playTrack() {
     curr_track.play();
     isPlaying = true;
-    track_art.classList.add('rotate');
     playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
 }
 function pauseTrack() {
     curr_track.pause();
     isPlaying = false;
-    track_art.classList.remove('rotate');
     playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
 }
 function nextTrack() {
