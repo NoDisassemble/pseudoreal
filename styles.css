@@ -5,6 +5,12 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-family: "Audiowide", cursive;
+  font-family: "Bangers", cursive;
+  font-family: "Jolly Lodger", cursive;
+  font-family: "Metal Mania", cursive;
+  font-family: "Reggae One", cursive;
+  font-family: "Trade Winds", cursive;
   background: url(images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,7 +21,7 @@ p {
   color: white;
 }
 .navbar {
-  font-family: "Bangers", cursive;
+  font-family: "Trade Winds", cursive;
   background-color: #ccc;
   position: fixed;
   width: 100%;
@@ -33,12 +39,12 @@ p {
   flex-direction: column;
   background-color: rgb(0, 0, 0, 0.7);
   justify-content: center;
-
+  min-height: 100vh;
   border-right: 2px solid black;
   border-left: 2px solid black;
 }
 .card-container {
-  font-family: "Bangers", cursive;
+  font-family: "Trade Winds", cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,8 +106,12 @@ p {
   color: white;
 }
 /* margins */
-.bottom-100 {
+.margin-bottom-100 {
   margin-bottom: 100px;
+}
+/* paddings */
+.padding-bottom-100 {
+  padding-bottom: 100px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
