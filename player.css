@@ -138,7 +138,7 @@ i.fa-step-backward {
   color: black;
 }
 
-@media only screen and (min-device-width: 320px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .track-art {
     width: 300px;
     height: 300px;
@@ -154,7 +154,7 @@ i.fa-step-backward {
     width: 100%;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   i.fa-volume-down,
   i.fa-volume-up {
