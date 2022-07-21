@@ -3,12 +3,12 @@ body {
 }
 .player-container {
   position: relative;
-  margin-top: 11rem;
   padding: 20px;
   height: 68vh;
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-color: #ffc728;
   border-radius: 5px;
 }
