@@ -144,6 +144,10 @@ i.fa-step-backward {
 }
 
 @media only screen and (min-device-width: 320px) {
+  .track-art {
+    width: 280px;
+    height: 280px;
+  }
   .track-list {
     display: none;
   }
