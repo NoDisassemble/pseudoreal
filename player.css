@@ -14,24 +14,24 @@ body {
 }
 .player-top {
   display: flex;
-  height: 100%;
+  height: 300px;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 25px;
 }
 .player-bottom {
+  position: relative;
   display: flex;
-  height: 100%;
+  height: 100px;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-top: 20px;
 }
 .track-list {
   position: relative;
-
-  width: 100%;
-  bottom: 10px;
+  height: 100%;
+  width: 40%;
   bottom: 0px;
 }
 
