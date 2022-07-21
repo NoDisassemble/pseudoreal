@@ -142,6 +142,9 @@ i.fa-step-backward {
   .track-art {
     width: 300px;
     height: 300px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
   }
   .track-list {
     display: none;
