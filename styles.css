@@ -20,6 +20,7 @@ body {
 p {
   color: white;
 }
+/* ================ Nav ================ */
 .navbar {
   font-family: "Trade Winds", cursive;
   background-color: #ccc;
@@ -33,6 +34,7 @@ p {
 .navbar-nav {
   font-size: 1.5rem;
 }
+/* ================ Main Container ================ */
 .container {
   padding-top: 200px;
   display: flex;
@@ -43,6 +45,7 @@ p {
   border-right: 2px solid black;
   border-left: 2px solid black;
 }
+/* ================ Members ================ */
 .card-container {
   font-family: "Trade Winds", cursive;
   display: flex;
@@ -104,6 +107,7 @@ p {
   font-size: 2rem;
   color: white;
 }
+/* ================ Music > Cabal ================ */
 .cabal-container {
   display: flex;
   flex-direction: row;
@@ -125,6 +129,22 @@ p {
   height: 60vh;
   background: #ffc728;
 }
+.download {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 10px;
+  right: 50px;
+}
+i.fa-cloud-download {
+  color: #ffc728;
+}
+i.fa-cloud-download:hover {
+  color: #614a0b;
+}
+/* ================ Contact Page ================ */
 .form-container {
   margin: 0;
   width: 100%;
@@ -152,6 +172,7 @@ form {
   height: 60vh;
   background: #ffc728;
 }
+/* ================ Utilities ================ */
 /* margins */
 .margin-bottom-40 {
   margin-bottom: 40px;
@@ -165,6 +186,7 @@ form {
   .card-container {
     margin-bottom: 50px;
   }
+  .download,
   .contact-left-banner,
   .contact-right-banner,
   .cabal-left-banner,
@@ -173,6 +195,8 @@ form {
   }
   form {
     width: 90vw;
+    top: 50%;
+    left: 50%;
     margin-top: -150px;
   }
 }

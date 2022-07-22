@@ -134,15 +134,13 @@ i.fa-step-backward {
 .randomActive {
   color: black;
 }
-.download {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .player-container {
     width: 90vw;
+    top: 50%;
+    left: 50%;
+    margin: auto;
   }
   .track-art {
     width: 300px;
@@ -158,8 +156,5 @@ i.fa-step-backward {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-  }
-  .download {
-    display: none;
   }
 }
