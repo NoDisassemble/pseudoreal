@@ -20,6 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script src="form.js"></script>
 </head>
 
 <body>
@@ -64,17 +65,17 @@
             <form>
                 <div class="mb-4">
                     <label for="formName" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="formName" required>
+                    <input type="text" class="form-control" id="formName" name="Name" required>
                 </div>
                 <div class="mb-4">
                     <label for="formEmail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="formEmail" required>
+                    <input type="email" class="form-control" id="formEmail" name="Email" required>
                 </div>
                 <div class="mb-3">
                     <label for="formMessage" class="form-label">Message</label>
-                    <textarea class="form-control" id="formMessage" rows="3" required></textarea>
+                    <textarea class="form-control" id="formMessage" rows="3" name="Message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-secondary">Submit</button>
+                <button type="submit" class="btn btn-secondary" onClick="formSubmit()">Submit</button>
             </form>
         </div>
     </div>
