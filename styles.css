@@ -87,18 +87,83 @@ p {
   color: #000;
   text-align: center;
 }
+.julius-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/julius-card.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.1;
+}
+.jestin-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/jestin-card.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.1;
+}
+.cedes-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/cedes-card.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.1;
+}
+.sean-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/sean-card.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.1;
+}
+.jed-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/jed-card.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.1;
+}
 .card-back {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 40px 10px;
   border-radius: 5px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: #534848;
-  color: #000;
+  background: #292626;
+  color: rgb(124, 68, 68);
   text-align: center;
   transform: rotateY(180deg);
 }
