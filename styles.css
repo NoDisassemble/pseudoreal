@@ -4,12 +4,6 @@
   padding: 0;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: "Audiowide", cursive;
-  font-family: "Bangers", cursive;
-  font-family: "Jolly Lodger", cursive;
-  font-family: "Metal Mania", cursive;
-  font-family: "Reggae One", cursive;
   font-family: "Trade Winds", cursive;
   background: url(images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -168,7 +162,7 @@ p {
   transform: rotateY(180deg);
 }
 .member-name {
-  font-family: "Bangers", cursive;
+  font-family: "Trade Winds", cursive;
   font-size: 2rem;
   color: white;
 }
@@ -246,7 +240,7 @@ form {
 .padding-bottom-100 {
   padding-bottom: 100px;
 }
-
+/* ================ Mobile ================ */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .card-container {
     margin-bottom: 50px;
