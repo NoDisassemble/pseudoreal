@@ -203,6 +203,13 @@ i.fa-cloud-download {
 i.fa-cloud-download:hover {
   color: #614a0b;
 }
+i.fa-envelope {
+  color: #ffc728;
+  text-decoration: none;
+}
+i.fa-envelope:hover {
+  color: #614a0b;
+}
 /* ================ Contact Page ================ */
 .form-container {
   margin: 0;
