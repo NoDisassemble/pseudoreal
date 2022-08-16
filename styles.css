@@ -52,7 +52,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 50%;
+  width: 100%;
 }
 .download {
   position: absolute;
