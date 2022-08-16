@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Trade Winds", cursive;
-  background: url(images/bg.jpg) no-repeat center center fixed;
+  background: url(images/DALLE2-fullband2.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@ p {
   align-items: left;
 }
 .container {
-  padding-top: 200px;
+  padding-top: 100px;
   display: flex;
   flex-direction: row;
   background-color: rgb(0, 0, 0, 0.7);
@@ -87,9 +87,6 @@ i.fa-envelope:hover {
 }
 /* ================ Mobile ================ */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .card-container {
-    margin-bottom: 50px;
-  }
   .download,
   .contact-left-banner,
   .contact-right-banner,
