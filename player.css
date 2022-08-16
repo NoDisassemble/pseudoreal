@@ -142,7 +142,9 @@ i.fa-step-backward {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .player-container {
+    position: absolute;
     width: 100vw;
+    align-items: left;
     margin: auto;
   }
   .track-art {
