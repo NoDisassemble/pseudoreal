@@ -144,8 +144,8 @@ i.fa-step-backward {
   .player-container {
     position: absolute;
     width: 100vw;
-    align-items: left;
-    margin: auto;
+    top: 100px;
+    left: 0;
   }
   .track-art {
     width: 300px;
