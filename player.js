@@ -23,7 +23,31 @@ let updateTimer;
 const music_list = [
     {
         img: 'images/looneytunes.jpg',
-        name: 'Thats All Folks',
+        name: 'Boss Fight',
+        artist: 'Looney Tunes',
+        music: 'music/thatsallfolks.mp3'
+    },
+    {
+        img: 'images/looneytunes.jpg',
+        name: 'Seven',
+        artist: 'Looney Tunes',
+        music: 'music/thatsallfolks.mp3'
+    },
+    {
+        img: 'images/looneytunes.jpg',
+        name: 'Iteration',
+        artist: 'Looney Tunes',
+        music: 'music/thatsallfolks.mp3'
+    },
+    {
+        img: 'images/looneytunes.jpg',
+        name: 'Retention',
+        artist: 'Looney Tunes',
+        music: 'music/thatsallfolks.mp3'
+    },
+    {
+        img: 'images/looneytunes.jpg',
+        name: '5 of 5',
         artist: 'Looney Tunes',
         music: 'music/thatsallfolks.mp3'
     }
