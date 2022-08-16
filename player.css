@@ -144,7 +144,7 @@ i.fa-step-backward {
   .player-container {
     position: absolute;
     width: 100vw;
-    top: 100px;
+    top: 180px;
     left: 0;
   }
   .track-art {
