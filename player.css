@@ -15,8 +15,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ffc728;
-  border-radius: 5px;
+  background-color: rgb(255, 199, 40);
+  border-radius: 10px;
 }
 .player-top {
   position: relative;
