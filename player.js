@@ -1,7 +1,6 @@
 let now_playing = document.querySelector('.now-playing');
 let track_art = document.querySelector('.track-art');
 let track_name = document.querySelector('.track-name');
-let track_artist = document.querySelector('.track-artist');
 
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
@@ -11,8 +10,6 @@ let seek_slider = document.querySelector('.seek_slider');
 let volume_slider = document.querySelector('.volume_slider');
 let curr_time = document.querySelector('.current-time');
 let total_duration = document.querySelector('.total-duration');
-let wave = document.getElementById('wave');
-let randomIcon = document.querySelector('.fa-random');
 let curr_track = document.createElement('audio');
 
 let track_index = 0;
@@ -22,33 +19,33 @@ let updateTimer;
 
 const music_list = [
     {
-        img: 'images/looneytunes.jpg',
+        bg: 'images/DALLE-fullband1.png',
+        img: 'images/DALLE-fullband1.png',
         name: 'Boss Fight',
-        artist: 'Looney Tunes',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        img: 'images/looneytunes.jpg',
+        bg: 'images/DALLE-fullband2.png',
+        img: 'images/DALLE-fullband2.png',
         name: 'Seven',
-        artist: 'Looney Tunes',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        img: 'images/looneytunes.jpg',
+        bg: 'images/DALLE-fullband3.png',
+        img: 'images/DALLE-fullband3.png',
         name: 'Iteration',
-        artist: 'Looney Tunes',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        img: 'images/looneytunes.jpg',
+        bg: 'images/DALLE-fullband4.png',
+        img: 'images/DALLE-fullband4.png',
         name: 'Retention',
-        artist: 'Looney Tunes',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        img: 'images/looneytunes.jpg',
+        bg: 'images/DALLE-fullband5.png',
+        img: 'images/DALLE-fullband5.png',
         name: '5 of 5',
-        artist: 'Looney Tunes',
         music: 'music/thatsallfolks.mp3'
     }
 ];
@@ -62,35 +59,14 @@ function loadTrack(track_index) {
     curr_track.src = music_list[track_index].music;
     curr_track.load();
 
+    document.body.style.backgroundImage = "url(" + music_list[track_index].bg + ")";
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
     track_name.textContent = music_list[track_index].name;
-    track_artist.textContent = music_list[track_index].artist;
     now_playing.textContent = "Playing music " + (track_index + 1) + " of " + music_list.length;
 
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
-    random_bg_color();
-}
-
-function random_bg_color() {
-    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
-    let a;
-
-    function populate(a) {
-        for (let i = 0; i < 6; i++) {
-            let x = Math.round(Math.random() * 14);
-            let y = hex[x];
-            a += y;
-        }
-        return a;
-    }
-    let Color1 = populate('#');
-    let Color2 = populate('#');
-    var angle = 'to right';
-
-    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
-    document.body.style.background = gradient;
 }
 function reset() {
     curr_time.textContent = "00:00";
