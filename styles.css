@@ -18,7 +18,6 @@ p {
 /* ================ Nav ================ */
 .navbar {
   font-family: "Trade Winds", cursive;
-  background-color: #ccc;
   position: fixed;
   width: 100%;
   z-index: 1;

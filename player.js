@@ -21,31 +21,31 @@ const music_list = [
     {
         bg: 'images/DALLE-fullband1.png',
         img: 'images/DALLE-fullband1.png',
-        name: 'Boss Fight',
+        name: 'Colossus',
         music: 'music/thatsallfolks.mp3'
     },
     {
         bg: 'images/DALLE-fullband2.png',
         img: 'images/DALLE-fullband2.png',
-        name: 'Seven',
+        name: 'Axial Flux',
         music: 'music/thatsallfolks.mp3'
     },
     {
         bg: 'images/DALLE-fullband3.png',
         img: 'images/DALLE-fullband3.png',
-        name: 'Iteration',
+        name: 'Ba`al Hammon',
         music: 'music/thatsallfolks.mp3'
     },
     {
         bg: 'images/DALLE-fullband4.png',
         img: 'images/DALLE-fullband4.png',
-        name: 'Retention',
+        name: 'Anubis',
         music: 'music/thatsallfolks.mp3'
     },
     {
         bg: 'images/DALLE-fullband5.png',
         img: 'images/DALLE-fullband5.png',
-        name: '5 of 5',
+        name: 'Leviathan',
         music: 'music/thatsallfolks.mp3'
     }
 ];
@@ -62,7 +62,7 @@ function loadTrack(track_index) {
     document.body.style.backgroundImage = "url(" + music_list[track_index].bg + ")";
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
     track_name.textContent = music_list[track_index].name;
-    now_playing.textContent = "Playing music " + (track_index + 1) + " of " + music_list.length;
+    //now_playing.textContent = "Playing music " + (track_index + 1) + " of " + music_list.length;
 
     updateTimer = setInterval(setUpdate, 1000);
 
