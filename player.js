@@ -19,32 +19,32 @@ let updateTimer;
 
 const music_list = [
     {
-        bg: 'images/DALLE-fullband1.png',
-        img: 'images/DALLE-fullband1.png',
+        bg: 'images/colossus.png',
+        img: 'images/colossus.png',
         name: 'Colossus',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        bg: 'images/DALLE-fullband2.png',
-        img: 'images/DALLE-fullband2.png',
+        bg: 'images/axial-flux.png',
+        img: 'images/axial-flux.png',
         name: 'Axial Flux',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        bg: 'images/DALLE-fullband3.png',
-        img: 'images/DALLE-fullband3.png',
+        bg: 'images/baal-hammon.png',
+        img: 'images/baal-hammon.png',
         name: 'Ba`al Hammon',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        bg: 'images/DALLE-fullband4.png',
-        img: 'images/DALLE-fullband4.png',
+        bg: 'images/anubis.png',
+        img: 'images/anubis.png',
         name: 'Anubis',
         music: 'music/thatsallfolks.mp3'
     },
     {
-        bg: 'images/DALLE-fullband5.png',
-        img: 'images/DALLE-fullband5.png',
+        bg: 'images/leviathan.png',
+        img: 'images/leviathan.png',
         name: 'Leviathan',
         music: 'music/thatsallfolks.mp3'
     }
