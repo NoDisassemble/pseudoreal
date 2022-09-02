@@ -5,11 +5,11 @@
 }
 body {
   font-family: "Trade Winds", cursive;
-  background: url(images/DALLE-bg.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
+  background: url(images/DALLE-bg.png) no-repeat center bottom fixed;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   background-color: black;
 }
 p {
@@ -64,7 +64,7 @@ p {
   right: 50px;
 }
 i.fa-cloud-download {
-  color: #ffc728;
+  color: white;
 }
 i.fa-cloud-download:hover {
   color: #614a0b;
